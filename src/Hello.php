@@ -5,7 +5,7 @@ class Hello
 {
     private $name;
 
-    public function __construct( $name = 'World' )
+    public function __construct($name = 'World')
     {
         $this->name = $name;
     }
@@ -17,6 +17,7 @@ class Hello
 
     public function hello()
     {
+        echo '修复bug';
         return 'Hello '.$this->name.'!';
     }
 }
